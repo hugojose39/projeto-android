@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <EditText
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/edittext_login"
+        android:inputType ="textEmailAddress"
+        android:hint="@string/email_login"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_login"
+        android:textColor="@color/text_login"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/email"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        />
+    <TextView
+       android:id="@+id/text_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passoword_login"
+        android:textColor="@color/text_login"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/senha"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/margin"
+        app:layout_constraintTop_toBottomOf="@id/email"
+
+        />
+    <EditText
+        android:id="@+id/senha"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/edittext_login"
+        android:inputType ="textPassword"
+        android:hint="@string/passoword_login"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_password"
+
+        />
+    <TextView
+        android:id="@+id/text_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_login"
+        android:textColor="@color/text_login_error"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/margin"
+        app:layout_constraintTop_toBottomOf="@id/senha"
+        tools:visibility="visible"
+
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="@dimen/button_login"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button_login"
+        android:text="@string/button_login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_login_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="@dimen/margin"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MiniCursoAndroid</string>
+    <string name="boas_vindas">Olá, bem vindo ao APP</string>
+    <string name="email_login">Email</string>
+    <string name="passoword_login">Senha</string>
+    <string name="button_login">Entrar</string>
+    <string name="error_login">Confira os campos de email e senha</string>
+</resources>

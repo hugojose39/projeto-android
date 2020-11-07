@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="text_boas_vindas">22sp</dimen>
+    <dimen name="text_boas_vindas_top">30dp</dimen>
+    <dimen name="edittext_login">200dp</dimen>
+    <dimen name="button_login">200dp</dimen>
+    <dimen name="button_login_bordas">30dp</dimen>
+    <dimen name="button_login_text">16sp</dimen>
+    <dimen name="margin_2">8dp</dimen>
+    <dimen name="card_lis_anuncio">100dp</dimen>
+    <dimen name="card_lis_anuncio_elevation">5dp</dimen>
+    <dimen name="borda_anuncio_cornes">5dp</dimen>
+    <dimen name="text_anuncio_card">16sp</dimen>
+    <dimen name="text_preco_card">18sp</dimen>
+    <dimen name="text_data_card">14sp</dimen>
+
+
+
+
+</resources>
